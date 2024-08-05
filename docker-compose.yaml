@@ -5,8 +5,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: secret
       MYSQL_DATABASE: openblog
-      MYQSL_USER: symfony
-      MYSQL_PASSWORD: symfony
+      MYSQL_USER: symfony
+      MYSQL_PASSWORD: "symfony"
     ports:
       - '4306:3306'
     volumes:
