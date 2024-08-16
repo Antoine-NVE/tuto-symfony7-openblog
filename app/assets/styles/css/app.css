@@ -1,7 +1,21 @@
+body {
+  background-color: white;
+}
+
 .navbar {
   background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+}
+
+.text-red {
+  color: red;
+}
+.text-orange {
+  color: orange;
+}
+.text-green {
+  color: green;
 }/*# sourceMappingURL=app.css.map */
